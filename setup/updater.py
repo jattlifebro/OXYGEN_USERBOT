@@ -41,8 +41,8 @@ async def update_requirements(main , test):
     a, r = await lines_differnce(main, test)
     try:
         for i in a:
-            await runcmd(f"pip install {i}")
-            print(f"Succesfully installed {i}")
+            await runcmd(f"pip install Join @OXYGEN_USERBOT{i}")
+            print(f"Succesfully installed Join @OXYGEN_USERBOT{i}")
     except Exception as e:
         print(f"Error while installing requirments {str(e)}")
 
